@@ -1,0 +1,254 @@
+body,
+html {
+  width: 100%;
+  background: url('../images/background.jpg') no-repeat center;
+  background-size: cover;
+}
+body #headers,
+html #headers {
+  width: 100%;
+}
+body #headers .square,
+html #headers .square {
+  padding: 0;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 1200px;
+  height: 360px;
+  position: relative;
+  /* background-color: red; */
+}
+body #headers .square .square_one,
+html #headers .square .square_one {
+  animation: square_two 2s forwards;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-right: 97px solid transparent;
+  border-top: 180px solid transparent;
+  border-left: 97px solid #eb8e10;
+  border-bottom: 180px solid #eb8e10;
+}
+body #headers .square .square_two,
+html #headers .square .square_two {
+  animation: square_one 2s forwards 1s;
+  opacity: 0;
+  position: absolute;
+  left: 6px;
+  width: 0;
+  height: 0;
+  border-right: 194px solid transparent;
+  border-top: 360px solid #2c79a2;
+  border-left: 194px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+body #headers .square .square_two .about2_my,
+html #headers .square .square_two .about2_my {
+  width: 140px;
+  height: 300px;
+  position: absolute;
+  left: -60px;
+  top: -330px;
+  /* text-align: center; */
+  color: #ffffff;
+}
+body #headers .square .square_two .about2_my .about_my,
+html #headers .square .square_two .about2_my .about_my,
+body #headers .square .square_two .about2_my p,
+html #headers .square .square_two .about2_my p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+body #headers .square .square_two .about2_my .about_my,
+html #headers .square .square_two .about2_my .about_my {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}
+body #headers .square .square_three,
+html #headers .square .square_three {
+  opacity: 0;
+  animation: square_two 2s forwards 2s;
+  position: absolute;
+  left: 206px;
+  width: 0;
+  height: 0;
+  border-right: 194px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 194px solid transparent;
+  border-bottom: 360px solid #c75520;
+}
+body #headers .square .square_three .basic2_data,
+html #headers .square .square_three .basic2_data {
+  width: 170px;
+  height: 120px;
+  position: absolute;
+  left: -85px;
+  top: 140px;
+  color: #ffffff;
+}
+body #headers .square .square_three .basic2_data .basic_data,
+html #headers .square .square_three .basic2_data .basic_data,
+body #headers .square .square_three .basic2_data p,
+html #headers .square .square_three .basic2_data p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+body #headers .square .square_three .basic2_data .basic_data,
+html #headers .square .square_three .basic2_data .basic_data {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+body #headers .square .square_four,
+html #headers .square .square_four {
+  animation: square_one 2s forwards 3s;
+  opacity: 0;
+  position: absolute;
+  left: 406px;
+  width: 0;
+  height: 0;
+  border-right: 194px solid transparent;
+  border-top: 360px solid #6a9a31;
+  border-left: 194px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+body #headers .square .square_four .good2_at,
+html #headers .square .square_four .good2_at {
+  width: 140px;
+  height: 300px;
+  position: absolute;
+  left: -65px;
+  top: -350px;
+  text-align: center;
+  color: #ffffff;
+}
+body #headers .square .square_four .good2_at .good_at,
+html #headers .square .square_four .good2_at .good_at,
+body #headers .square .square_four .good2_at p,
+html #headers .square .square_four .good2_at p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+body #headers .square .square_four .good2_at .good_at,
+html #headers .square .square_four .good2_at .good_at {
+  font-size: 16px;
+  font-weight: 800;
+}
+body #headers .square .square_five,
+html #headers .square .square_five {
+  animation: square_two 2s forwards 4s;
+  opacity: 0;
+  position: absolute;
+  left: 606px;
+  width: 0;
+  height: 0;
+  border-right: 194px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 194px solid transparent;
+  border-bottom: 360px solid #182861;
+}
+body #headers .square .square_five .education2,
+html #headers .square .square_five .education2 {
+  width: 160px;
+  height: 300px;
+  position: absolute;
+  left: -80px;
+  top: 110px;
+  text-align: center;
+  color: #ffffff;
+}
+body #headers .square .square_five .education2 .education,
+html #headers .square .square_five .education2 .education,
+body #headers .square .square_five .education2 p,
+html #headers .square .square_five .education2 p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+body #headers .square .square_five .education2 .education,
+html #headers .square .square_five .education2 .education,
+body #headers .square .square_five .education2 p:nth-of-type(2),
+html #headers .square .square_five .education2 p:nth-of-type(2) {
+  padding-top: 10px;
+}
+body #headers .square .square_five .education2 .education,
+html #headers .square .square_five .education2 .education {
+  font-size: 16px;
+  font-weight: 800;
+}
+body #headers .square .square_fix,
+html #headers .square .square_fix {
+  animation: square_one 2s forwards 5s;
+  opacity: 0;
+  position: absolute;
+  left: 806px;
+  width: 0;
+  height: 0;
+  border-right: 194px solid transparent;
+  border-top: 360px solid #be3c28;
+  border-left: 194px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+body #headers .square .square_fix .Learning2,
+html #headers .square .square_fix .Learning2 {
+  width: 220px;
+  height: 300px;
+  position: absolute;
+  left: -100px;
+  top: -350px;
+  /* text-align: center; */
+  color: #ffffff;
+}
+body #headers .square .square_fix .Learning2 .Learning,
+html #headers .square .square_fix .Learning2 .Learning,
+body #headers .square .square_fix .Learning2 p,
+html #headers .square .square_fix .Learning2 p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+body #headers .square .square_fix .Learning2 .Learning,
+html #headers .square .square_fix .Learning2 .Learning {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}
+body #headers .square .square_seven,
+html #headers .square .square_seven {
+  animation: square_two 2s forwards 6s;
+  opacity: 0;
+  position: absolute;
+  left: 1006px;
+  width: 0;
+  height: 0;
+  border-right: 97px solid #006133;
+  border-top: 180px solid transparent;
+  border-left: 97px solid transparent;
+  border-bottom: 180px solid #006133;
+}
+@-webkit-keyframes square_one {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes square_two {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

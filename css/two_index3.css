@@ -1,0 +1,179 @@
+body.html {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+section,
+.one_bottom {
+  position: relative;
+  width: 1210px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+section .more,
+.one_bottom .more {
+  box-shadow: 3px 3px 5px #6a6a6a, -2px -2px 5px #defbe2;
+  /*  text-shadow: 1px 1px 2px #ffffff,-1px -1px 1px #ffffff  ; */
+  opacity: 0.9;
+  margin: 100px auto;
+  width: 130px;
+  height: 50px;
+  color: #ffffff /* rgba(0,70,40,1) */;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(60deg, #182861 0%, #182861 20%, #eb920c 20%, #eb920c 40%, #00512c 40%, #00512c 60%, #be3c28 60%, #be3c28 80%, #2c79a2 80%, #2c79a2 100%);
+  transition: all 1s;
+  cursor: pointer;
+}
+section .more:hover,
+.one_bottom .more:hover {
+  border-radius: 50px;
+  width: 150px;
+  font-size: 24px;
+  color: #ffffff;
+  /*   text-shadow: 1px 1px 2px #ffffff,-1px -1px 1px #ffffff  ; */
+}
+section .study,
+.one_bottom .study {
+  width: 100%;
+  height: 200px;
+  background: url('../images/one/study.gif') no-repeat center;
+  background-size: cover;
+}
+section .neirong,
+.one_bottom .neirong {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+}
+section .neirong .bottom_left,
+.one_bottom .neirong .bottom_left {
+  float: left;
+}
+section .neirong .bottom_left .time_one p,
+.one_bottom .neirong .bottom_left .time_one p {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+section .neirong .bottom_left .time_one,
+.one_bottom .neirong .bottom_left .time_one {
+  /* border: 2px solid #000; */
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 135px;
+  width: 220px;
+  height: 80px;
+  font-size: 26px;
+  line-height: 80px;
+  text-align: center;
+  font-weight: 800;
+  box-sizing: border-box;
+  /* background-color:rgba(200,200,200,0.5); */
+}
+section .neirong .bottom_left .one,
+.one_bottom .neirong .bottom_left .one {
+  color: #182861;
+}
+section .neirong .bottom_left .two,
+.one_bottom .neirong .bottom_left .two {
+  color: #eb920c;
+}
+section .neirong .bottom_left .three,
+.one_bottom .neirong .bottom_left .three {
+  color: #00512c;
+}
+section .neirong .bottom_left .four,
+.one_bottom .neirong .bottom_left .four {
+  color: #be3c28;
+}
+section .neirong .bottom_left .five,
+.one_bottom .neirong .bottom_left .five {
+  color: #2c79a2;
+}
+section .neirong .bottom_right,
+.one_bottom .neirong .bottom_right {
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 900px;
+  height: 250px;
+}
+section .neirong .bottom_right textarea,
+.one_bottom .neirong .bottom_right textarea {
+  cursor: pointer;
+  border-radius: 30px;
+  line-height: 24px;
+  padding: 10px;
+  padding-top: 60px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  border: 3px solid #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+section .neirong .bottom_right h2,
+.one_bottom .neirong .bottom_right h2 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+section .neirong .bottom_right .chunk,
+.one_bottom .neirong .bottom_right .chunk {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+section .neirong .bottom_right .chunk .no_b,
+.one_bottom .neirong .bottom_right .chunk .no_b,
+section .neirong .bottom_right .chunk .yes_b,
+.one_bottom .neirong .bottom_right .chunk .yes_b {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 30px;
+  color: #04AA1B;
+  cursor: pointer;
+}
+section .neirong .bottom_right .chunk .no_b,
+.one_bottom .neirong .bottom_right .chunk .no_b {
+  background: url("../images/one/delete.png") no-repeat;
+  background-size: contain;
+  right: 20px;
+  bottom: 10px;
+}
+section .neirong .bottom_right .chunk .yes_b,
+.one_bottom .neirong .bottom_right .chunk .yes_b {
+  background: url("../images/one/edit.png") no-repeat;
+  background-size: contain;
+  right: 120px;
+  bottom: 10px;
+}
+section .neirong .bottom_right .chunk .no_b:hover,
+.one_bottom .neirong .bottom_right .chunk .no_b:hover {
+  background: url("../images/one/delete (1).png") no-repeat;
+  background-size: contain;
+  color: red;
+}
+section .neirong .bottom_right .chunk .yes_b:hover,
+.one_bottom .neirong .bottom_right .chunk .yes_b:hover {
+  background: url("../images/one/edit (1).png") no-repeat;
+  background-size: contain;
+  color: red;
+}

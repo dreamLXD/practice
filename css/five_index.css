@@ -1,0 +1,120 @@
+body,
+html {
+  width: 100%;
+  background: url("../images/background.jpg") no-repeat center;
+  background-size: 100% 100%;
+}
+#headers {
+  width: 100%;
+  height: 500px;
+}
+#headers .Trojan {
+  position: relative;
+  top: 30px;
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+}
+#headers .Trojan .Trojan_one img {
+  position: absolute;
+  left: 20%;
+  opacity: 0;
+  border-radius: 30px;
+  transition: all 1s;
+}
+#headers .Trojan .Trojan_left,
+#headers .Trojan .Trojan_right {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+  background: url('../images/seasons/prev.png') no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+}
+#headers .Trojan .Trojan_right {
+  left: 1000px;
+  background: url('../images/seasons/next.png') no-repeat center;
+  background-size: cover;
+}
+footer {
+  width: 100%;
+  position: relative;
+}
+footer .confirm {
+  transition: all 0.5s;
+  position: absolute;
+  right: 130px;
+  top: 110px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  line-height: 50px;
+  color: #5D5D5D;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background: url('../images/seasons/add.png') no-repeat left;
+  background-size: contain;
+}
+footer .confirm:hover {
+  color: #EA3434;
+  background: url('../images/seasons/add2.png') no-repeat left;
+  background-size: contain;
+}
+footer h3 {
+  width: 1210px;
+  margin: 20px auto 20px;
+  height: 150px;
+  background: url('../images/seasons/qingchunriji.gif') no-repeat 100px;
+  background-size: contain;
+}
+footer article {
+  border-top: 5px solid orange;
+}
+footer article .kuai {
+  width: 1000px;
+  height: 150px;
+}
+footer article .diary {
+  position: relative;
+  margin: 20px auto;
+}
+footer article .diary textarea {
+  margin-left: 70px;
+  overflow: hidden;
+  width: 1000px;
+  height: 50px;
+  line-height: 50px;
+  border: 0;
+  color: #fff;
+  font-size: 24px;
+  transition: all 1s;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+footer article .diary textarea:focus {
+  height: 150px;
+  outline-color: orange;
+  color: orangered;
+  /* border: 2px solid #DF3550; */
+  background-color: #fff;
+}
+footer article .diary .cancel {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  transition: all 0.5s;
+  background: url('../images/one/垃圾箱.png') no-repeat center;
+  background-size: contain;
+}
+footer article .diary .cancel:hover {
+  background: url('../images/one/垃圾箱 (2).png') no-repeat center;
+  background-size: contain;
+}
